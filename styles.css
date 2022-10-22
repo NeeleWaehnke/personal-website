@@ -1,6 +1,52 @@
+@font-face {
+  font-family: "Open-Sans";
+  src: URL("./assets/OpenSans-VariableFont_wdth\,wght.ttf");
+}
 * {
   box-sizing: border-box;
+  width: 100%;
 }
+
+body {
+  font-family: "Open-Sans";
+  border: 1px solid black;
+  margin: auto;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  padding: ;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.navbar {
+  background-color: lavender;
+  border: 1px solid black;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: ;
+  list-style: none;
+  border: 1px black solid;
+  align-content: center;
+  padding: 10px;
+  max-width: 50%;
+}
+
+ul {
+  padding: 0;
+}
+
 h1 {
-  font-family: Open-Sans;
+  display: flex;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid black;
+  align-content: center;
+  align-items: center;
+  width: 500px;
 }
