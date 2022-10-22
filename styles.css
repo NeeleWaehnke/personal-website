@@ -15,7 +15,6 @@ body {
 }
 .header {
   display: flex;
-  padding: ;
   justify-content: flex-start;
   max-width: 100%;
 }
@@ -29,7 +28,6 @@ body {
 
 .navigation {
   display: flex;
-  justify-content: ;
   list-style: none;
   border: 1px black solid;
   align-content: center;
